@@ -1,0 +1,1 @@
+# EFI-for-macOS-Sequioa-working-on-Hp-probook-440-G6

@@ -92,7 +92,7 @@ Before booting, enter BIOS and ensure:
 ## 🪄 Installation Tips
 
 1. Prepare your macOS Sequoia USB installer using [macrecovery](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html) or [GibMacOS](https://github.com/corpnewt/gibMacOS).  
-2. Configure your Serial number, Mac address, Nvram via GenSMBIOS or refer to [Dortania GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
+2. Configure your config.plist's Serial number, Mac address, Nvram via GenSMBIOS or refer to [Dortania GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
 2. Mount the EFI partition of your USB.  
 3. Copy this EFI folder to the USB’s EFI partition.  
 4. Boot and install macOS Sequoia.  

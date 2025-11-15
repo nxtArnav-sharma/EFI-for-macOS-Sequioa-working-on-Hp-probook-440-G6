@@ -49,7 +49,7 @@ This EFI has been configured and tested specifically for:
 ✅ Battery indicator  
 ✅ USB ports (properly mapped)  
 ✅ Brightness and volume control  
-✅ iServices (App Store, iCloud, iMessage, FaceTime)
+✅ iServices (App Store, iCloud, iMessage, FaceTime)(you might need an old Apple account as per the recent security pacthes, or with a new account please contact Apple Customer support)
 
 ---
 
@@ -92,6 +92,7 @@ Before booting, enter BIOS and ensure:
 ## 🪄 Installation Tips
 
 1. Prepare your macOS Sequoia USB installer using [macrecovery](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html) or [GibMacOS](https://github.com/corpnewt/gibMacOS).  
+2. Configure your Serial number, Mac address, Nvram via GenSMBIOS or refer to [Dortania GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
 2. Mount the EFI partition of your USB.  
 3. Copy this EFI folder to the USB’s EFI partition.  
 4. Boot and install macOS Sequoia.  
